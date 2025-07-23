@@ -18,12 +18,19 @@ The main goal of this project is to build a machine learning model that can accu
 ## 📁 Repository Structure
 
 Spam-Mail-Classification/
+
 ├── spam_mail_classification/ # Folder with Streamlit app code
+
 │ └── app.py # Main Streamlit application
+
 ├── models/ # (Optional) Folder for saved ML models
+
 ├── data/ # (Optional) Dataset files
+
 ├── README.md # Project documentation
+
 └── requirements.txt # Required packages
+
 
 bash
 Copy
