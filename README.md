@@ -11,7 +11,7 @@ Experience the classifier in action without any local setup.
 
 🔗 Try the Live App!
 
-[<!-- Add your deployment link here -->](https://anvit2512-spam-mail-classification-app-nuhcs3.streamlit.app/)
+https://anvit2512-spam-mail-classification-app-nuhcs3.streamlit.app/
 🖼️ Screenshots
 <!-- Add a screenshot or GIF of the application interface here -->
 ⭐ Features
@@ -64,18 +64,29 @@ bash
 Copy
 Edit
 Spam-Mail-Classification/
-├── app.py                                  # Main Streamlit application script
+├── app.py # Main Streamlit application script
+
 ├── vectorizer.pkl                          # Saved TF-IDF vectorizer
+
 ├── model_*.pkl                             # Trained machine learning models
+
 ├── requirements.txt                        # Project dependencies
+
 ├── render.yaml                             # Deployment config for Render
+
 ├── README.md                               # Project documentation
+
 │
 ├── Spam_Mail_Classification_given_dataset/
+
 │   └── Spam_Mail_Prediction_using_Machine_Learning.ipynb  # Training notebook 1
+
 │
+
 └── spam_mail_classification_method_1_with_deployment/
+
     └── spam_mail_classification_method_1_with_deployment.ipynb  # Training notebook 2
+    
 Key Files
 app.py: Entry point for the Streamlit web application.
 
