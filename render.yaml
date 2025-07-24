@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spam-mail-classification
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run spam_mail_classification/app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
